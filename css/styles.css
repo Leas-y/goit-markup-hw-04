@@ -327,7 +327,7 @@ header .container {
   position: relative;
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  overflow: hidden; 
+  overflow: hidden;
 }
 .portfolio-list .list-item:hover,
 .portfolio-list .list-item:focus {
@@ -338,8 +338,6 @@ header .container {
 .overlay {
   position: relative;
   overflow: hidden;
-  
- 
 }
 .portfolio-list .list-item:hover .overlay-text {
   transform: translatey(0);
@@ -355,10 +353,10 @@ header .container {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-align: left;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 40px 32px 164px;
+  padding: 40px 32px;
   transform: translateY(100%);
   background-color: #4d5ae5;
 }
